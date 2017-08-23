@@ -1,18 +1,18 @@
 @import 'variables';
 @import 'mixins';
 
-
-
 body {
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
-	overflow-x: hidden;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: "RobotoRegular", sans-serif;
+  overflow-x: hidden;
+  background-color: rgba(43, 87, 43, 0.8);
 }
+
 .hidden {
-	display: none;
+  display: none;
 }
 
 .header-image {
@@ -21,7 +21,16 @@ body {
   background-size: cover;
 }
 
+.card {
+  margin: 20px;
+}
 
+footer {
+  background-image: url("../img/header-image.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+}
 
 //ALWAYS END
 @import 'media';
