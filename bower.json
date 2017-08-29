@@ -25,6 +25,7 @@
     "bootstrap": "^3.3.7",
     "uikit": "^2.27.2",
     "font-awesome": "fontawesome#^4.7.0",
-    "vex": ""
+    "vex": "",
+    "bower install jquery.tablesorter": "*"
   }
 }
