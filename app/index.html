@@ -35,10 +35,11 @@
 
 	<div class="container">
         <div class="row">
-            <div class="col">
+            <!--FIRST CARD-->
+            <div class="col-md-6">
                 <div class="card text-center text-white border-0">
                     <img class="card-img" src="img/picture-1.jpg" alt="Card image cap">
-                    <div class="card-img-overlay popup">
+                    <div class="card-img-overlay popup showHtmlPopup">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="btn btn-primary">Go somewhere</div>
@@ -46,10 +47,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <!--SECOND CARD-->
+            <div class="col-md-6">
                 <div class="card text-center text-white border-0">
                     <img class="card-img-top" src="img/picture-2.jpg" alt="Card image cap">
-                    <div class="card-img-overlay popup">
+                    <div class="card-img-overlay popup showFirstItems">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="btn btn-primary">Go somewhere</div>
@@ -59,10 +61,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <!--THIRS CARD-->
+            <div class="col-md-6">
                 <div class="card text-center text-white border-0">
                     <img class="card-img-top" src="img/picture-3.jpg" alt="Card image cap">
-                    <div class="card-img-overlay popup">
+                    <div class="card-img-overlay popup showDataInTable">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="btn btn-primary">Go somewhere</div>
@@ -70,10 +73,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <!--FOURTH CARD-->
+            <div class="col-md-6">
                 <div class="card text-center text-white border-0">
                     <img class="card-img-top" src="img/picture-4.jpg" alt="Card image cap">
-                    <div class="card-img-overlay popup">
+                    <div class="card-img-overlay popup showImageSlider">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             <div class="btn btn-primary">Go somewhere</div>
@@ -84,7 +88,9 @@
         </div>
     </div>
 
-	<footer>
+    <div class="content" hidden></div>
+
+	<footer id="footer">
         <div class="container footer">
             <div class="text-center">
                 <p class="text-primary">Made by @Ihor Kurnytskyi 2017</p>
@@ -92,8 +98,9 @@
         </div>
     </footer>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" gulintegrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<!--VEX popup library-->
 	<script src="libs/vex/dist/js/vex.combined.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
