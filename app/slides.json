@@ -6,17 +6,17 @@
 	},
 	{
 		"title": "Image 1",
-		"content": "images/img1.png",
+		"content": "img/img1.png",
     "type":  "image"
 	},
 	{
 		"title": "Image 2",
-		"content": "images/img2.png",
+		"content": "img/img2.png",
     "type":  "image"
 	},
 	{
 		"title": "Image 3",
-		"content": "images/img3.png",
+		"content": "img/img3.png",
     "type":  "image"
 	}
 ]

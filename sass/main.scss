@@ -23,6 +23,24 @@ body {
 
 .card {
   margin: 20px;
+  cursor: pointer;
+}
+
+.cover {
+  max-height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.image-sliders {
+  max-height: 350px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+#main-img {
+  transition-property: background;
+  transition: 1s;
+
 }
 
 footer {
